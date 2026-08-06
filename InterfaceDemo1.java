@@ -15,6 +15,8 @@ class B implements A,X {
 class InterfaceDemo{
     public static void main(String args[]){
         B obj = new B();
-        
+        obj.display();
+        obj.test();
+        System.out.println("All");
     }
 }
