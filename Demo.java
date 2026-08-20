@@ -3,4 +3,13 @@ class Hospital{
     System.out.println("Hospital :" + hospitalName);
     }
 }
-class D
+class Doctor extends Hospital{
+    Doctor(){
+        super("Apollo Hospital");
+    }
+}
+public class Demo{
+    public static void main(String args[]){
+          Doctor obj = new Doctor();
+    }
+}
