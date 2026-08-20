@@ -1,4 +1,4 @@
-import java.io.*;
+
 class writeCharacterTest{
     public static void main(String args[]){
         int byteval;
